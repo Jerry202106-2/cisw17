@@ -1,0 +1,41 @@
+Haipeng Ren
+3 - Lesson Notes
+09/19/2023
+
+Lesson 4: Understanding JavaScript
+=====================================================
+Summary:
+	In this chapter, I learne about web scripting and JavaScript. What web scripting is and what JavaScript is. I learned how to insert a script into an HTML document or refer to an external JavaScript file,What sorts of things JavaScript can do, and how JavaScript differs from other web languages.
+	I also learn how to write a simple Javascript. The "document.write" statement, functions for working with dates and times. How can JavaScript do in a webpage. I also learned how to modify and test scripts and you saw what happens when a JavaScript program runs into an error.
+
+What You'll Learn in this Lesson
+	What web scripting is and what it’s good for
+	How scripting and programming are different (and similar)
+	What JavaScript is and where it came from
+	How to include JavaScript commands in a web page
+	What JavaScript can do for your web pages
+	Beginning and ending scripts
+	Formatting JavaScript statements
+	How a script can display a result
+	Including a script within a web document
+	Testing a script in a browser
+	Modifying a script
+	Dealing with errors in scripts
+	Moving scripts into separate files
+
+Lesson 5: Validating and Debugging Your Code
+=====================================================
+Summary:
+	In this lesson, I learned a lot of ways to validate and debug issues in my HTML, CSS and JavaScript. I also learned how to use the inspector within Developer Tools in your browser to see the HTML elements and CSS styles and properties that the browser has rendered while loading a web page.
+	I also learned the basics of reviewing JavaScript syntax errors in the Console and setting breakpoints and systematically stepping through the code to debug more complex problems.The methods which I learned in this lesson will be very helpful to finish this course.
+
+What You'll Learn in this Lesson
+	How to validate your HTML and CSS
+	How to use Developer Tools to debug HTML and CSS
+	How to use the JavaScript Console to debug JavaScript
+
+
+Explain how to include JavaScript in a web page.
+A: By using the <script> tag, you can add a short script to a web document.
+using this kind script to include JavaScript in a web page.
+<scriptsrc="filename.js"></script>

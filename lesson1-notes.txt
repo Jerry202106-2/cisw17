@@ -1,0 +1,102 @@
+Haipeng Ren
+Lesson 1 Notes
+09/04/2023
+
+Lesson 1: Understanding How the Web Works
+================================================================
+summary of this chapter:
+ .This chapter tells us the history of the World Wide Web, Web content, web browser, web hosting provider. And this 
+chapter also tell us how using FTP to transfer files to web server.And where we should put the HTML file in 
+web server. We also will learn about a sample HTML file in this chapter. This chapter makes us understand World wide web, 
+HTML and how to use it.This chapter gives us the concept of using HTMl to make up text files to produce web content.We also will
+learn about the FTP in thi chapter.
+
+List the "What You'll Learn in this Lesson" bullet points.
+ .A very brief history of the World Wide Web
+ .What is meant by the term web page and why this term doesn't always reflect all the content involved
+ .How content gets from your personal computer to someone else's web browser
+ .How to select a web hosting provider
+ .How different web browsers and devices types can affect your content
+ .How to transfer files to your web server by using FTP
+ .Where files should be placed on a web server
+ .How to distribute web content without a web server
+ .How to use other publishing methods, such as blogs
+ .Tip for testing the appearance and functionality for web content
+
+List the "HTML Tags Every Webpage Must Have"
+  .Every webpage must have "<!doctype html>","<head>","<body>"
+
+
+List the 20 HTML tags covered.
+ ."<img>", "src", "alt", "width", "height", "<head>","<body>","<title>","<h1>"
+
+=================================================================
+| Lesson 2: Structuting an HTML Document |
+=================================================================
+
+summary of chapter 2:
+ .This chapter told us the basics knowledge of web pages and how they work. We will learn that code HTML
+commands are inducluded in a text file. This chapter aslo introduced the most basic and important HTML tags.
+By adding thes coded commands to any plain-text document, you can quickly transform it into a bona fide web page.
+We also learned some of the semantic tags in HTML5, which are used to provide additional meaning by delineating
+the types of content your pages contain.
+
+List the "What You'll Learn in this Lesson" bullet points.
+	. How to create a simple web page in HTML
+	. How to include all the HTML tags that every web page must have
+	. How to organize a page with paragraphs and line breaks
+	. How to organize your content with headings
+	. How to use the semantic elements of HTML5
+	. How to use semantic tags to indicate header and footer content
+	. How to use semantic tags to indicate navigational and secondary content
+	. How to use semantic tags to better structure body content
+
+
+List the "HTML Tags Every Webpage Must Have"
+ ."<html>…</html>","<head>…</head>","<title>…</title>","<body>…</body>"
+
+
+List the 20 HTML tags covered.
+    Tag               Function
+
+. "<html>…</html>"    Encloses the entire HTML document.
+
+. "<head>…</head>"     Encloses the head of the HTML document. Used within the "<html>" tag pair.
+
+. "<meta charset="utf-8">"   Defines the character set for the document as UTF-8. Used within the "<head>" tag pair, immediately after the opening "<head>" tag.
+
+. "<title>…</title>"    Indicates the title of the document. Used within the "<head>" tag pair.
+
+. "<body>…</body>"    Encloses the body of the HTML document. Used within the "<html>" tag pair.
+
+. "<p>…</p>"       Encloses a paragraph; skips a line between paragraphs.
+
+. "<br>"           Indicates a line break.
+
+. "<hr>"            Displays a horizontal rule.
+
+. "<h1>…</h1>"      Encloses a first-level heading.
+
+. "<h2>…</h2>"      Encloses a second-level heading.
+
+. "<h3>…</h3>"       Encloses a third-level heading.
+
+. "<h4>…</h4>"       Encloses a fourth-level heading (seldom used).
+
+. "<h5>…</h5>"       Encloses a fifth-level heading (seldom used).
+
+. "<h6>…</h6>"       Encloses a sixth-level heading (seldom used).
+
+. "<header>…</header>"    Contains introductory information.
+
+. "<footer>…</footer>"     Contains supplementary material for its containing element (commonly a copyright notice or author information).
+
+. "<nav>…</nav>"       Contains navigational elements.
+
+. "<section>…</section>"   Contains thematically similar content, such as a chapter of a book or a section of a page.
+
+. "<article>…</article>"   Contains content that is a standalone body of work, such as a news article.
+
+. "<aside>…</aside>"    Contains secondary information for its containing element.
+
+. "<address>…</address>"    Contains address information related to its nearest "<article>" or "<body>" element, often contained within a "<footer>" element.

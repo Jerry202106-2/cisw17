@@ -1,0 +1,39 @@
+div {
+    width: 250px;
+    height: 100px;
+    border: 5px solid #000000;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px;
+ }
+ 
+div#d1{
+    background-color: blueviolet;
+    /* relative to it's viewport*/
+    position: fixed;
+    top: 100px;
+    right: 25px;
+ }
+
+ div#d2{
+    background-color:aqua;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+ }
+
+ div#d3{
+    background-color:bisque;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+ }
+
+ div#d4{
+    background-color:chartreuse;
+    position:relative;
+    /* relative to it's normal position*/
+    left: -125px;
+    padding: 500px 0;
+ }

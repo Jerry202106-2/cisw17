@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:ital,wght@0,100;0,400;0,500;1,400&display=swap');
+
+body{
+    margin: 0 auto;
+    width: 800px;
+    background-color: #fefefe;
+    color: #0e0e0e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+
+}
+main{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+}
+h1{
+    font-family: 'Croissant One', cursive;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+}
+.Section1{
+    background-color: antiquewhite;
+    padding-top:15px;
+    padding-left:15px;
+    padding-bottom: 20px;
+    border-style: dotted;
+    border-color: #0e0e0e;
+    border-width: 2px;
+}
+
+.section2{
+    background-color:azure;
+    padding-top:15px;
+    padding-left:15px;
+    padding-bottom: 20px;
+    border-color: blue;
+    border-style:dotted;
+    border-width: 2px;
+}
+/* target the a element to style link*/
+a{
+    text-decoration: none;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+a:link{
+    color: rebeccapurple;
+}
+a:visited{
+    color:chocolate;
+}
+a:hover{
+    color:burlywood;
+    font-size: 1.2em;
+}

@@ -1,0 +1,35 @@
+Haipeng Ren
+Lesson 2 Notes
+09/10/2023
+
+Lesson 3: Understanding Cascading Style Sheets
+=====================================================
+Summary:
+	I learned a lot in this lesson. I learned that how to create a basic style sheet and how the CSS works in a web page. I learned that a style sheet can control the appearance of many HTML pages at once. I also learned that adding a style attribute to almost any HTML tag, the style of this HTML tag can be controled. CSS is very powerful to make the HTML page to be better.
+	I aslo learned that there are three main approaches to including style sheets in your web stie: 
+1. adding a separate style sheet file with the extension .css, and this file need to be linked in the <head> of the HTML.
+2. We can add a style rules in the <head> within <style> tag.
+3. We can add rules directly in HTML tag via style attribute.
+All of those three methods are the main methods to includeing style sheets in a HTML.
+
+
+What You'll Learn in this Lesson
+	.How to create a basic style sheet
+	.How to use style classes
+	.How to use style IDs
+	.How to construct internal style sheets and inline styles
+
+
+Define the following:
+
+Layout properties: 
+Properties that affect the positioning of elements on a web page, such as margins, padding, and alignment
+
+Formatting properties: 
+Properties that affect the visual display of elements in a website, such as the font type, size, and color
+
+CSS Class: 
+It is a custom set of formatting specifications that can be applied to any element in a web page.
+
+CSS ID: 
+It is a custom set of formatting specifications that can be applied to only one element in a web page.
