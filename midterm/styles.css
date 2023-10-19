@@ -132,6 +132,9 @@ html {
   .education p {
     width: 60%;
   }
+  .education a{
+    color:chocolate;
+  }
   
   
   /* Contact Info
