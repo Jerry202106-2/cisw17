@@ -25,6 +25,7 @@ body {
 }
 header{
     animation: 1.5s ease-in 0s 1 slideIn;
+    text-align: center;
 
     /*opacity: 1;
     animation-name: fadeIn;
@@ -33,4 +34,39 @@ header{
     animation-duration: 1.5s;
 
     transform: skew(30deg);*/
+}
+
+.flex-container{
+    display: flex;
+    background-color: #3d43d9;
+    align-items: center;
+    flex-direction: column;
+
+    /*flex-direction: row;
+    flex-direction: row-reverse;*/
+
+    flex-wrap: wrap;
+
+    /*flex-wrap: wrap-reverse;*/
+    justify-content: center;
+    /*justify-content: flex-start;*/
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 15px;
+}
+
+.item1{grid-area: header;}
+.item2{grid-area: menu;}
+.item3{grid-area:main;}
+.item4{grid-area: right;}
+
+.grid-content{
+    display: grid;
+    grid-template-areas:
+    'header header menu menu menu menu'
+    'main main right right right right';
+    gap: 15px;
+    padding: 10px;
 }

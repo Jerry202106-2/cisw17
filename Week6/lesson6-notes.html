@@ -4,13 +4,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Week 6 Lesson Notes</title>
     <!-- 
     	Haipeng Ren
-        Assignment: 5 - Lesson Notes
-        10/08/2023
+        Assignment: 6 - Lesson Notes
+        10/09/2023
 							-->
+    <style>
+    body {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fefefe;
+    color: #0e0e0e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 100%);
+    }
+
+
+
+
+
+.item1{grid-area:header;}
+.item2{grid-area:menu;}
+.item3{grid-area:main;}
+.item4{grid-area:right;}
+
+.grid-content{
+    display: grid;
+    grid-template-areas:
+    'header header menu menu'
+    'main main right right';
+   
+    padding: 10px;
+}
+    </style>
 </head>
 
 <body>
@@ -18,12 +46,38 @@
         <h1>Week 6 Lesson Notes</h1>
     </header>
     <hr>
+    <div class="grid-content">
+    <div  class="item1" style="background-color: aqua;">
+        <h2>Lesson 12: Creating Layouts Using Modern CSS Techniques</h2>
+        <p><b>Summary:</b></p>
+                <p>In this lesson, I learned about the three main types of layouts: fixed, liquid, and a fixed/liquid hybird. In the middle of the lesson, 
+                    there is a example of creating a fixed/liquid 
+                    hybrid layout. It is very helpful to create a wonderful and beautiful layout.
+                </p>
+                <p> I also learned how create a similar layout by using modern CSS layout with flexiable boxes and grids. I also learn  CSS grid, CSS flexible layouts. 
+                    It is very important for me to create a 
+                    HTML layout in future.
+                </p>
+        <p><b>What You'll Learn in This Lesson</b></p>
+        <ul>
+        <li>How fixed layouts work</li>
+        <li>How liquid layouts work</li>
+        <li>How to create a fixed/liquid hybrid layout</li>
+        <li>How to create CSS flexible box layouts</li>
+        <li>How to use CSS grid layouts</li>
+        </ul>
+    </div>
+
+    <div  class="item2" style="background-color: green;">
+    <h2>Lesson 13: Taking Control of Backgrounds and Borders</h2>
     <h2>Lesson 12: Creating Layouts Using Modern CSS Techniques</h2>
     <p><b>Summary:</b></p>
-            <p>In this lesson, I learned about the three main types of layouts: fixed, liquid, and a fixed/liquid hybird. In the middle of the lesson, there is a example of creating a fixed/liquid 
+            <p>In this lesson, I learned about the three main types of layouts: fixed, liquid, and a fixed/liquid hybird. In the middle of the lesson, 
+                there is a example of creating a fixed/liquid 
                 hybrid layout. It is very helpful to create a wonderful and beautiful layout.
             </p>
-            <p> I also learned how create a similar layout by using modern CSS layout with flexiable boxes and grids. I also learn  CSS grid, CSS flexible layouts. It is very important for me to create a 
+            <p> I also learned how create a similar layout by using modern CSS layout with flexiable boxes and grids. I also learn  CSS grid, CSS flexible layouts. 
+                It is very important for me to create a 
                 HTML layout in future.
             </p>
     <p><b>What You'll Learn in This Lesson</b></p>
@@ -34,62 +88,53 @@
     <li>How to create CSS flexible box layouts</li>
     <li>How to use CSS grid layouts</li>
     </ul>
+    </div>
 
-    <h2>Lesson 13: Taking Control of Backgrounds and Borders</h2>
-    <p><b>Summary:</b></p>
-            <p>In this lesson, I learned several advanced techniques for background images and borders. I learned hot to adjust the four borders on any element. I also learned how to layer multiple backgrounds 
-                 on one element to create interesting effects. I learned the property of "backgroun-clip". and how to change the size of background elements with "background-size" and "background-position" and "background-attachment".
-            </p>
-            <p> I also learned how to create a zebra-stripe table. I also learned how to round the corners with "border-radius", and how to use images as borders with "border-image", and I also learned 
-                about CSS outline properties and the differ from "border" properties.
-            </p>
-    <p><b>What You'll Learn in This Lesson</b></p>
-    <ul>
-    <li>How to layer backgrounds</li>
-    <li>How to use gradients as backgrounds</li>
-    <li>How to use CSS properties to create "zebra-stripe" tables automatically</li>
-    <li>How to create rounded corners on elements</li>
-    <li>How to use images as borders</li>
-    <li>How outlines are different then borders</li>
-    </ul>
-
-
+    <div  class="item3" style="background-color: yellow;">
     <h2>Lesson 14:  Using CSS Transformations and Transitions</h2>
+    <h2>Lesson 12: Creating Layouts Using Modern CSS Techniques</h2>
     <p><b>Summary:</b></p>
-            <p>In this lesson, I learnded how to add basic animation to web pages by transforming elements. In the first section of the lesson, I learned how to use "transform" property. 
-                I also learned "rotate()" to rotate an element. And I also learned use "scale()" function to make an element larger or smaller. With the "translate()", "skew()", we can move elements 
-                from where they would normally be placed and till elements on the horizontal and vertical axes. I also learned use "rotatex()","rotatey()","rotate3d(x,y,z,angle)" to spin an element around 
-                a point in space.
+            <p>In this lesson, I learned about the three main types of layouts: fixed, liquid, and a fixed/liquid hybird. In the middle of the lesson, 
+                there is a example of creating a fixed/liquid 
+                hybrid layout. It is very helpful to create a wonderful and beautiful layout.
             </p>
-            <p> 
-                I also learned how to animate transformations with the "transition" properties. I learned how to define the properties to transition, how to define the time a transition takes, how to set 
-                a delay for a transition, how to define the time a transition takes, and how to set a delay for a transition so that is does not start immediately. 
+            <p> I also learned how create a similar layout by using modern CSS layout with flexiable boxes and grids. I also learn  CSS grid, CSS flexible layouts. 
+                It is very important for me to create a 
+                HTML layout in future.
             </p>
     <p><b>What You'll Learn in This Lesson</b></p>
     <ul>
-    <li>How to transform elements by rotating, scaling, moving, and tilting</li>
-    <li>How to wok with transformations in three dimensions</li>
-    <li>How to apply multiple transformations to one element</li>
-    <li>How to do simple animations with the transition property</li>
+    <li>How fixed layouts work</li>
+    <li>How liquid layouts work</li>
+    <li>How to create a fixed/liquid hybrid layout</li>
+    <li>How to create CSS flexible box layouts</li>
+    <li>How to use CSS grid layouts</li>
     </ul>
+    </div>
 
-
+    <div class="item4" style="background-color: plum;">
     <h2>Lesson 15: Animating with CSS and the Canvas</h2>
+    <h2>Lesson 12: Creating Layouts Using Modern CSS Techniques</h2>
     <p><b>Summary:</b></p>
-            <p>In this lesson, I know that there are two ways : with CSS and with JavaScript  to do animations. I also learned how to create keyframe animation with CSS: with defining the @keyframes.
-                 and applying it to an element with the animation property. 
+            <p>In this lesson, I learned about the three main types of layouts: fixed, liquid, and a fixed/liquid hybird. In the middle of the lesson, 
+                there is a example of creating a fixed/liquid 
+                hybrid layout. It is very helpful to create a wonderful and beautiful layout.
             </p>
-            <p> 
-                I also learned HTML "canvas" in this lesson. Like how to use it to draw shapes: circles, rectangles, and polygons. I also learned how to add images to the canvas and then animate the images with sample 
-                    sprite animation. I also learned the reasons that choose CSS animation or JavaScript animation.
+            <p> I also learned how create a similar layout by using modern CSS layout with flexiable boxes and grids. I also learn  CSS grid, CSS flexible layouts. 
+                It is very important for me to create a 
+                HTML layout in future.
             </p>
     <p><b>What You'll Learn in This Lesson</b></p>
     <ul>
-    <li>How to generate a CSS animation</li>
-    <li>How CSS animations are different from transitions and how they are similar</li>
-    <li>Creating keyframes to hold and control animations</li>
-    <li>Using the HTML canvas element for self-contained animations</li>
+    <li>How fixed layouts work</li>
+    <li>How liquid layouts work</li>
+    <li>How to create a fixed/liquid hybrid layout</li>
+    <li>How to create CSS flexible box layouts</li>
+    <li>How to use CSS grid layouts</li>
     </ul>
+    </div>
+
+</div>
     <br><br><br><br>
 </body>
 

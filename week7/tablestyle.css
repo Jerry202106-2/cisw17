@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+    max-width: 400px;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+}
+th{
+    text-align: left;
+    background-color: lightblue;
+    padding: 10px 15px;
+}
+td{
+    padding: 5px;
+}
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+}

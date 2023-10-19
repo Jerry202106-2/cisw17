@@ -1,0 +1,192 @@
+/*
+COLOR PALETTE
+Choose a color palette and paste the hex codes here to use below
+https://coolors.co/
+
+#343434 Dark color for fonts on a light background
+#F7FFF7 light color for fonts on a dark background
+
+https://coolors.co/f7f0f5-000100-6ca6c1-94e8b4-433633
+#F7F0F5 Magnolia light color for fonts on a dark background
+#000100 Black  Dark color for fonts on a light background
+#6ca6c1  Air superiority blue for the link
+#94E8B4  Bright pink (Crayola)  for link
+#433633 Van Dyke  for the dark background
+
+
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  img {
+    width: 300px;
+  }
+  a {
+    /* color: ; */
+    color: #F7F0F5;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 5em;
+    line-height: 1;
+  }
+  h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 1.25em;
+  }
+  header h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 2em;
+  }
+  h1, h2 {
+    font-weight: 700;
+    margin: 0;
+  }
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  h3 {
+    font-family: 'Young Serif', serif;
+    margin-bottom: 0;
+  }
+  .item-details h3 + p {
+    font-style: italic;
+  }
+  .item-details h3 ~ p {
+    margin: 0;
+  }
+  .divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+  }
+  .divider > section:last-of-type {
+    border-bottom: none;
+  }
+  
+  
+  /* Profile
+  ------------------------------------*/
+  header {
+    /* background: ; */
+    /* color: ; */
+    background-color: #433633;
+    color:#F7F0F5;
+  }
+  
+  
+  /* Projects
+  ------------------------------------*/
+  .projects {
+     background: #6ca6c1; 
+  }
+  .projects a {
+    color:#F7F0F5; 
+  }
+  .projects .btn {
+    color:#F7F0F5; 
+    background:#433633;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .projects .btn:hover {
+    background:#000100;
+  }
+  .project-item {
+    overflow: hidden;
+  }
+  .project-item h3 {
+    margin-top: 0;
+  }
+  
+  /* Education
+  ------------------------------------*/
+  .education {
+    background-color: #94E8B4; 
+    background-position: top right;
+    padding-bottom: 100px;
+  }
+  .education p {
+    width: 60%;
+  }
+  
+  
+  /* Contact Info
+  ------------------------------------*/
+  footer {
+    background:#000100; 
+    color:#F7F0F5;
+  }
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .contact-list a {
+    padding: 15px;
+    display: inline-block;
+    /* color: ; */
+  }
+
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:750px){
+  header, footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 2em;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+  img {
+    width: 200px;
+  }
+}

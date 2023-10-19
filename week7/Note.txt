@@ -1,0 +1,42 @@
+RWD: (Responsive website design)
+-Fluid Layout (flexbox, grid, %)
+-Load a different site"
+-media queries - sizes mobil/tablet/desktop
+     (Print, braille, etc)
+
+
+images
+-- style %
+-- picture -- different img 
+
+
+
+Semantic tag:
+
+nav
+aside
+header
+article
+footer
+
+<header>: Represents the introductory content of a section or a page, typically containing headings, logos, and navigation menus.
+
+<nav>: Marks a section of a webpage that contains navigation links, such as menus or lists of links to other pages.
+
+<main>: Defines the main content of a webpage. There should be only one <main> element per page.
+
+<article>: Represents a self-contained composition within a document, such as a blog post, news article, or forum post.
+
+<section>: Groups related content together and typically contains a heading. It's used to structure the content of a page.
+
+<aside>: Defines content that is tangentially related to the content around it, like a sidebar or additional information.
+
+<footer>: Represents the footer section of a page or a section, typically containing copyright information, contact details, and other metadata.
+
+<figure>: Contains elements like images, illustrations, diagrams, or videos, often accompanied by a <figcaption> for a caption.
+
+<figcaption>: Used in conjunction with a <figure> element to provide a caption or description for the content it contains.
+
+<time>: Represents a specific point in time or a range of time and can be used to mark up dates and times on a page.
+
+<mark>: Indicates text that has been highlighted or marked for reference within the document.
