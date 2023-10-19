@@ -50,11 +50,11 @@ html {
     line-height: 1;
   }
   h2 {
-    font-family: 'Young Serif', serif;
+    font-family: 'Croissant One', serif;
     font-size: 1.25em;
   }
   header h2 {
-    font-family: 'Young Serif', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
   }
   h1, h2 {
@@ -68,7 +68,7 @@ html {
     padding: 60px 0;
   }
   h3 {
-    font-family: 'Young Serif', serif;
+    font-family: 'Croissant One', serif;
     margin-bottom: 0;
   }
   .item-details h3 + p {
