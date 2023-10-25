@@ -8,7 +8,7 @@ body{
     margin: 0 auto;
 }
 article{
-    /*column-count: 2;*/
+    column-count: 3;
     column-gap: 25px;
     column-width: 200px;
     column-rule: 1px solid gray;
@@ -19,7 +19,7 @@ h1{
     text-align: center;
   
 }
-article, p{
+article, div{
     line-height: 1.5em;
     margin: 0px;
     padding: 0 10px;

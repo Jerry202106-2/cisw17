@@ -38,7 +38,6 @@ html {
     width: 300px;
   }
   a {
-    /* color: ; */
     color: #F7F0F5;
   }
   a:hover {
@@ -93,6 +92,9 @@ html {
     /* color: ; */
     background-color: #433633;
     color:#F7F0F5;
+  }
+  header p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
   
   

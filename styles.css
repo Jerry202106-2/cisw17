@@ -1,16 +1,16 @@
-body
-{
+body{
+    max-width: 1200px;
     margin: 0 auto;
-    width: 800px;
-    background-color:aliceblue;
-    color:black;
-    font-size: 15px;
-    
 }
 main{
-    margin: 0 auto;
-    text-align: center;
-    width: 350px;
+    /* column-count: 3;
+    column-gap: 25px;
+    column-width: 200px;
+    column-rule: 1px solid gray; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    /* max-width: 60rem; */
 }
 h1{
     
@@ -46,7 +46,6 @@ h2{
     border-color: blue;
     border-style:dotted;
     border-width: 2px;
-    margin-top: 35px;
 }
 
 ul li {
